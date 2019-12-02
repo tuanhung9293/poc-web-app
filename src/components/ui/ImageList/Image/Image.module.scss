@@ -1,0 +1,31 @@
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  &:hover {
+    svg {
+      fill-opacity: 0.5;
+    }
+  }
+
+  img {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80%;
+  }
+
+  .favorite {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .isFavorited {
+    svg {
+      fill-opacity: 1 !important;
+    }
+  }
+}
+

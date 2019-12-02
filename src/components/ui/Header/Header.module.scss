@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  border-bottom: solid .5px #b3b3b3;
+
+  .title {
+    color: #4f4f4f;
+    border-right: solid 2px #b3b3b3;
+  }
+
+  .box {
+    display: flex;
+
+    & > div {
+      padding: 3px 10px;
+      margin: 9px 0;
+    }
+  }
+
+  .navItem {
+    a {
+      cursor: pointer;
+      color: #757575;
+      font-weight: 400;
+    }
+
+    &.isActive {
+      a {
+        color: #4f4f4f;
+        font-weight: bold;
+      }
+    }
+  }
+}
